@@ -40,7 +40,6 @@ class CustomButton extends StatelessWidget {
             borderRadius: BorderRadius.circular(borderRadius),
           ),
           elevation: 3, // Slight elevation for subtle shadow
-          shadowColor: buttonColor?.withOpacity(0.3),
         ),
         onPressed: onPressed,
         child: Text(text, style: style),
