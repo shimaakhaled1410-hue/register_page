@@ -1,4 +1,5 @@
 import 'package:go_router/go_router.dart';
+import 'package:register_page/features/register/presentation/views/home_page.dart';
 import 'package:register_page/features/register/presentation/views/register_page.dart';
 
 abstract class AppRouter {
@@ -9,6 +10,10 @@ abstract class AppRouter {
       GoRoute(
         path: '/',
         builder: (context, state) => RegisterPage(),
+      ),
+      GoRoute(
+        path: '/homePage',
+        builder: (context, state) => HomePage(),
       ),
     ],
   );
