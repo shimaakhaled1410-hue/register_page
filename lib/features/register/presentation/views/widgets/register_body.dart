@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:register_page/core/utils/styles.dart';
-import 'package:register_page/features/register/presentation/views/widgets/register_text_fields.dart';
+import 'package:register_page/features/register/presentation/views/widgets/register_form.dart';
 
 class RegisterBody extends StatelessWidget {
   const RegisterBody({super.key});
@@ -43,7 +43,7 @@ class RegisterBody extends StatelessWidget {
                       ),
                     ),
                     SizedBox(height: size.height * 0.04),
-                    const RegisterTextFields(),
+                    const RegisterForm(),
                     const Spacer(),
                   ],
                 ),
